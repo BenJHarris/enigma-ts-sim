@@ -1,0 +1,35 @@
+{
+  "name": "enigma-ts-sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && babel src --out-dir lib --extensions \".ts,.tsx\"",
+    "bundle": "webpack",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenJHarris/enigma-ts-sim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenJHarris/enigma-ts-sim/issues"
+  },
+  "homepage": "https://github.com/BenJHarris/enigma-ts-sim#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.0-beta.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-typescript": "^7.0.0-beta.49",
+    "typescript": "^2.9.1"
+  }
+}
